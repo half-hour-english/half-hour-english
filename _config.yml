@@ -4,11 +4,12 @@
 
 # Site
 title: 半小时英语HalfHourEnglish
+avatar: /images/logo.png
 subtitle: ''
 description: ''
 keywords:
-author: CoderDream
-language: zh-CN
+author: HalfHourEnglish
+language: zh-TW
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -99,10 +100,10 @@ ignore:
 ## default theme: landscape
 theme: stellar  # 指定主题 fluid
 
-#feed:
-#  type: atom # RSS的类型(atom/rss2)
-#  path: atom.xml # 文件路径,默认是atom.xml/rss2.xml
-#  limit: 20 # 展示文章的数量,使用0或则false代表展示全部hub
+feed:
+  type: atom # RSS的类型(atom/rss2)
+  path: atom.xml # 文件路径,默认是atom.xml/rss2.xml
+  limit: 20 # 展示文章的数量,使用0或则false代表展示全部hub
 #  hub:
 #    content:  # 在RSS文件中是否包含内容 ,有3个值 true/false默认不填为false
 #    content_limit: # 指定内容的长度作为摘要,仅仅在上面content设置为false和没有自定义的描述出现
